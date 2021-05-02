@@ -6,10 +6,8 @@ For this project we have only created the B.Sc.IT Department and the Subjects th
 
 
 To Open the project :-
-
 Go to htmls folder ->
 Open main.php
 
 To Install the SQL files in your localhost :-
-
 Import all the files Present in the Database folder in your server ( I used XXamp Server)
