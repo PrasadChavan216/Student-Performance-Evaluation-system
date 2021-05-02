@@ -1,0 +1,132 @@
+
+body {
+background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
+     url(../imgs/cont.jpg) no-repeat center center fixed;
+background-size: cover;
+height: 97vh;
+margin: 0px;
+padding: 0px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+float: right;
+list-style-type: none;
+margin-top: 30px;
+margin-right: 60px;
+}
+
+ul li {
+display: inline-block;
+}
+
+ul li a {
+text-decoration: none;
+color: #fff;
+padding: 15px 20px;
+text-shadow: 5px 5px 5px black;
+transition: 0.5s ease;
+font-size: 20px;
+}
+
+ul li a:hover {
+color: rgb(233, 211, 106);
+}
+
+table {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-collapse: collapse;
+    width: 900px;
+    height: 200px;
+    text-shadow: 5px 5px 20px black;
+    border: 1px solid #bdc3c7;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+}
+
+tr {
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+}
+
+th,td {
+    padding: 10px;
+    text-align: left;
+    color: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+    text-shadow: 5px 5px 20px black;
+}
+
+#header {
+    background-color: rgb(233, 211, 106);
+    color: #fff;
+}
+
+h1 {
+    font-weight: 600;
+    text-align: center;
+    color: rgb(233, 211, 106);
+    padding: 12px 0px;
+    text-shadow: 5px 5px 20px black;
+}
+
+tr:hover {
+    background-color: rgb(233, 211, 106);
+    transform: scale(1.02);
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.add{
+    text-decoration: none;
+    background-color: #ff9933;
+    text-shadow: 5px 5px 20px black;
+    margin:20px 0px 0px 20px;
+    text-align:center;
+    border-radius:9px;
+    border:2px;
+    padding: 5px;
+    outline:none;
+    color:white;
+    cursor:pointer;
+    transition:0.25px;
+}
+
+.add:hover{
+    background-color: #3BAF9F;
+    transition: 0.25s ease;
+}  
+
+.delete{
+    text-decoration: none;
+    background-color:#ff9933;
+    text-shadow: 5px 5px 20px black;
+    margin:20px 0px 0px 20px;
+    text-align:center;
+    border-radius:9px;
+    border:2px ;
+    padding: 5px;
+    outline:none;
+    color:white;
+    cursor:pointer;
+    transition:0.25px;
+}
+
+.delete:hover{
+    background-color: red;
+    transition: 0.25s ease;
+}  
+
+
+@media only screen and (max-width: 768px) {
+    table {
+        width: 90%;
+    }
+}

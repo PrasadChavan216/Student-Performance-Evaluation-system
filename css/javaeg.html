@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>When you click a button it will change the text of sample paragraph.</p>
+
+<p id="demo">I am sample paragraph.</p>
+
+<button onclick="change_text()">Click me</button>
+
+<script>
+function change_text(){
+    document.getElementById("demo").innerHTML = "You clicked the button, I am new paragraph.";
+}
+</script>
+
+
+
+
+<p>Click the button to display greeting.</p>
+
+<p id="pa"></p>
+
+Name:<br><br>
+<input type="text" id="name" name="name">
+<br><br>
+<button onclick="change_text()">Submit</button>
+
+<script>
+function change_text(){
+    var name = document.getElementById("name").value;
+    document.getElementById("pa").innerHTML = "Hello " + name;
+}
+</script>
+
+
+
+
+
+</body>
+</html>

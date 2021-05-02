@@ -1,0 +1,208 @@
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
+                      url("../imgs/fy_sy_ty_bg.jpg");
+    background-size:cover;
+    margin:0%;
+    padding:0%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.details, .detailed{
+	display: none;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 10px;
+    margin-right: 60px;
+  }
+  
+ul li {
+    display: inline-block;
+}
+  
+ul li a {
+	text-decoration: none;
+	color: #fff;
+	padding: 15px 20px;
+	text-shadow: 5px 5px 5px black;
+	/*border: 1px solid transparent;*/
+	transition: 0.5s ease;
+	font-size: 20px;
+}
+  
+ul li a:hover {
+    color: rgb(233, 211, 106);
+}
+
+.regform{
+  width:800px;
+  background-color:rgb(0,0,0,0.6);
+  margin:auto;
+  color: rgb(233, 211, 106);
+  padding:10px 0px 10px 0px;
+  text-align:center;
+  border-radius:15px 15px 0px 0px ;
+  margin-top: 50px;
+}  
+
+.main{
+  background-color:rgb(0,0,0,0.5);
+  width:800px;
+  margin:auto;
+}
+
+form{
+  padding:10px;
+} 
+
+#name{
+    width:100%;
+    height:70px;
+}  
+ 
+.name{
+    margin-left:25px;
+    margin-top:30px;
+    width: 125px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(233, 211, 106);
+}
+
+.firstname{
+     position: relative;
+     left:200px;
+     top:-37px;
+     line-height: 40px;
+     border-radius: 6px;
+     padding: 0 22px;
+     font-size: 16px;
+
+ }
+
+.semlist{
+     position: relative;
+     left:200px;
+     top:-37px;
+     line-height: 40px;
+}
+
+.semlist select{
+   background: #fff;  
+   padding: 10px;
+   width: 250px;
+   height: 40px;
+   font-size: 15px;
+   border: none;
+   border-radius:6px;
+}
+
+.dis{
+  position: relative;
+  left:200px;
+  top:-37px;
+  line-height: 20px;
+  background-color:#3BAF9F;
+  display:block;
+  border-radius:6px;
+  border:2px solid #366473;
+  outline:none;
+  color:#000;
+  cursor:pointer;
+  transition:0.25px;
+  font-size: 10px;
+}
+
+.dis:hover{
+    background-color: rgb(233, 211, 106);
+    transition: 0.2s ease;
+}  
+
+.examlist{
+     position: relative;
+     left:200px;
+     top:-37px;
+     line-height: 40px;
+}
+
+.examlist select{
+   background: #fff;  
+   padding: 10px;
+   width: 250px;
+   height: 40px;
+   font-size: 15px;
+   border: none;
+   border-radius:6px;
+}
+ 
+ .option{
+   position:relative;
+   left:200px;
+   top:-37px;
+   line-height: 40px;
+   width:532px;
+   height:40px;
+   border-radius: 6px;
+   padding: 0 22px;
+   font-size: 16px;
+   color: #555;
+   outline:none;
+   overflow:hidden;
+}    
+.option option{
+   font-size: 15px;
+}
+
+.marks{
+    position:relative;
+   left:200px;
+   top:-37px;
+   line-height: 40px;
+   width:550px;
+   border-radius: 6px;
+   padding: 0 22px;
+   font-size: 16px;
+   color: rgb(233, 211, 106);
+   border: 1px solid #fff;
+   padding: 20px;
+   border-collapse: separate;
+   border-spacing: 20px;
+   text-transform: capitalize;
+   text-align: center;
+}
+
+.obt_marks{
+    text-align: center;
+    position:relative;
+    line-height: 40px;
+    width:100px;
+    height:35px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+    outline:none;
+    overflow:hidden;
+}
+
+button{
+    background-color:#3BAF9F;
+    display:block;
+    margin:20px 0px 0px 20px;
+    text-align:center;
+    border-radius:12px;
+    border:2px solid #366473;
+    padding:14px 110px;
+    outline:none;
+    color:white;
+    cursor:pointer;
+    transition:0.25px;
+} 
+button:hover{
+    background-color: rgb(233, 211, 106);
+    transition: 0.4s ease;
+}  

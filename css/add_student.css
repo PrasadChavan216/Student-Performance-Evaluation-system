@@ -1,0 +1,73 @@
+*{
+margin:0%;
+padding:0%;
+font-family: Arial, Helvetica, sans-serif;
+}   
+
+body{
+background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
+url("../imgs/add_student.jpg");
+height: 100vh;
+background-position: relative;
+background-size:cover;
+}
+
+ul {
+float: right;
+list-style-type: none;
+margin-top: 30px;
+margin-right: 60px;
+}
+
+ul li {
+display: inline-block;
+}
+
+ul li a {
+text-decoration: none;
+color: #fff;
+padding: 15px 20px;
+text-shadow: 5px 5px 5px black;
+/*border: 1px solid transparent;*/
+transition: 0.5s ease;
+font-size: 20px;
+}
+
+ul li a:hover {
+color: rgb(233, 211, 106);
+}
+
+ul li.active a {
+color: rgb(233, 211, 106);
+}
+
+.container {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  padding: 10px 10px;
+  height: 15vh;
+  width: 30vw;
+  word-spacing: 10px;
+  align-items: center;
+  /*border: 1px solid;*/
+}
+
+.container a {
+  text-decoration: none;
+  color: rgb(233, 211, 106);
+  padding: 15px 30px;
+  text-shadow: 5px 5px 5px black;
+  border: 1px solid transparent;
+  text-align: center;
+}
+
+.container a:hover {
+  background-color: rgb(233, 211, 106);
+  color: black;
+  transition: 0.4s ease;
+}
